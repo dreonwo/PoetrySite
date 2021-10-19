@@ -1,0 +1,49 @@
+body{
+    background-image: url(/Images/poemBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #0776A0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff8500;
+    font-size: 150%;
+}
+
+#logo{
+    width: 25%;
+    display: block;
+    float: left;
+    margin-bottom: 3%;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    overflow: hidden;
+}
+
+ul{
+    clear: left;
+    list-style-type: none;
+}
+
+li{
+    line-height: 250%;
+}
+
+a:link{
+    color: #ff8500;
+}
+
+a:visited{
+    color: lightgray;
+}
+
+a:hover{
+    color:rgb(18, 145, 18);
+}
+
+a:active{
+    color: white;
+}

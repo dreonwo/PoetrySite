@@ -1,0 +1,52 @@
+body{
+    background-image: url(/Images/poemBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #0776A0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff8500;
+    font-size: 130%;
+}
+
+#logo{
+    width: 25%;
+    display: block;
+    float: left;
+}
+
+.mainContent{
+    margin-left: 2%;
+}
+
+pre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 200%;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    overflow: hidden;
+}
+
+h1 + pre{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+img + p{
+    font-weight: bold;
+    font-size: 105%
+}
+
+#elegyIntro{
+    text-align: center;
+    margin-left: 21%;
+}
