@@ -10,7 +10,8 @@ body{
 }
 
 #main{
-    margin-left: 15px;
+    margin-left: 3%;
+    font-size: 130%;
 }
 
 a:visited{
@@ -26,12 +27,8 @@ nav{
     flex-direction: row;
     margin-top: -1%;
     margin-right: -1%;
-    margin-left: -.5%;
+    margin-left: -1%;
     background-color: #ff8500;
-}
-
-nav p{
-    color: #0776A0;
 }
 
 nav h2{
@@ -67,19 +64,24 @@ nav li:hover{
 
 #logo{
     width: 25%;
-    margin: -1% auto 0 45%;
+    padding: 0;
+    margin: 0;
     display: block;
     overflow: hidden;
 }
 
-#mainPage{
-    font-size: 130%;
-}
-
 #mainContent{
     width: 65%;
-    margin: 50px auto 50px 0;
+    position: relative;
+    left: 25%;
     overflow: hidden;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+#mainContent h2{
+    position: relative;
+    left: 25%;
 }
 
 pre{
@@ -87,25 +89,9 @@ pre{
     line-height: 200%;
 }
 
-table{
-    border: 20px black outset;
-    text-align: left;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 5%;
-}
-
-.tableHead{
-    font-size: 130%;
-    padding-bottom: 20px;
-}
-
-table td{
-    font-size: 130%;
-}
-
 #keyTerms{
-    margin: 50px auto 50px 0;
+    padding: 0;
+    margin: 1% auto 50px 1%;
     overflow: hidden;
     box-sizing: content-box;
 }
@@ -114,7 +100,7 @@ table td{
     color: white;
 }
 #extraInfo{
-    margin: 2% auto;
+    margin: 0 auto 5%;
     overflow: hidden;
     box-sizing: content-box;  
 }
@@ -130,6 +116,7 @@ footer{
     margin-bottom: 2%;
     clear: left;
     text-align: center;
+    font-size: 130%;
 }
 
 footer a:link{
@@ -146,4 +133,80 @@ footer a:hover{
 
 footer a:active{
     color: white;
+}
+
+@media (max-width: 768px){
+    
+    nav{
+        flex-direction: column;
+    }
+    nav h2{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    nav ul{
+        padding-left: 0;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    nav li{
+        font-size: 1.5em;
+        border: none;
+        padding: none;
+        margin: none;
+    }
+
+    nav li:first-child{
+        border: none;
+    }
+}
+
+@media (max-width: 500px){
+
+    #main{
+        margin-left: 3%;
+    }
+
+    #mainContent{
+        left:0;
+        width: 100%;
+        padding: 0;
+    }
+
+    #mainContent h2{
+        left: 20%;
+    }
+
+    #logo{
+        width: 50%;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    nav h2{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    nav ul{
+        padding-left: 0;
+        margin-top: 0;
+        margin-left: 3%;
+        text-align: center;
+    }
+    
+    nav li{
+        font-size: 1.5em;
+        border: none;
+        padding: none;
+        margin: none;
+    }
+
+    nav li:first-child{
+        border: none;
+    }
 }
