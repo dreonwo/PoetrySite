@@ -139,7 +139,7 @@ footer a:active{
     color: white;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1024px) and (min-width: 501px){
     
     nav{
         flex-direction: column;
