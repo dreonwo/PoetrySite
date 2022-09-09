@@ -1,12 +1,7 @@
 body{
-    background-image: url(../Images/poemBackground.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #0776A0;
+    background-color: #32120f;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ff8500;
+    color: #a15c34;
     font-size: 130%;
 }
 
@@ -23,6 +18,7 @@ p{
 h1{
     text-align: center;
     text-shadow: 2px 2px black;
+    color:white;
 }
 
 h1 + p{

@@ -1,34 +1,36 @@
 body{
-    background-image: url(../Images/background_Image.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #0776A0;
-    background-size: cover;
-    background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ff8500;
+    background-color: #32120f;
 }
 
 #main{
-    margin-left: 3%;
+    margin-left: 2%;
     font-size: 130%;
 }
-
-a:visited{
-    color: darkmagenta;
+.top{
+    margin-top: 10%;
+    position: relative;
 }
 
-nav a:active{
-color: #0776A0;
+.bottom{
+    position: relative;
 }
+
+.poetryImg{
+    position: absolute;
+    top:10%;
+    width: 40%;
+}
+
 
 nav{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: -1%;
     margin-right: -1%;
     margin-left: -1%;
-    background-color: #ff8500;
+    background-color: #a15c34;
 }
 
 nav ul{
@@ -38,20 +40,15 @@ nav ul{
 
 nav h2{
     text-align: center;
-    color: #0776A0;
+    color: #32120f;
     margin-left: 1%;
     margin-right: 1%;
-}
-
-nav li:first-child{
-    border-left: black solid;
 }
 
 nav li{
     list-style-type: none;
     font-size: 30px;
     display: inline;
-    border-right: black solid;
     padding-left: 18px;
     padding-right: 10px;
     padding-bottom: 18px;
@@ -59,17 +56,17 @@ nav li{
     color: white;
 }
 
-nav li:last-child{
-    border-right: none;
-}
-
 nav a:link{
     text-decoration: none;
     color: white;
 }
 
+nav a:visited{
+    color: white;
+}
+
 nav li:hover{
-    background-color: #FF9400;
+    background-color: lighten(#32120f, 20%);
 }
 
 #logo{
@@ -81,17 +78,28 @@ nav li:hover{
 }
 
 #mainContent{
-    width: 65%;
+    width: 50%;
     position: relative;
-    left: 25%;
+    left: 40%;
     overflow: hidden;
     margin: 0;
-    padding-bottom: 0;
+    padding: 3%;
+    text-align: center;
+    background-color: #a15c34;
+    color: white;
+    border-radius: 50%;
 }
 
 #mainContent h2{
-    position: relative;
-    left: 25%;
+    font-family: "Hoefler Text";
+    /* position: relative;
+    left: 25%; */
+}
+
+#mainContent p{
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 pre{
@@ -101,24 +109,27 @@ pre{
 
 #keyTerms{
     padding: 0;
-    margin: 1% auto 50px 1%;
+    margin: 0;
     overflow: hidden;
     box-sizing: content-box;
+    color: white;
+    width: 50%;
 }
 
 #keyterms dt{
-    color: white;
+    color: #a15c34; 
 }
-#extraInfo{
-    margin: 0 auto 5%;
-    overflow: hidden;
-    box-sizing: content-box;  
+
+.fountainPen{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 40%;
 }
 
 #bar{
     height: 3px;
     background-color: black;
-    clear: left;
 }
 
 footer{
@@ -130,7 +141,7 @@ footer{
 }
 
 footer a:link{
-    color: #ff8500;
+    color: #a15c34;
 }
 
 footer a:visited{
