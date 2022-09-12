@@ -1,12 +1,7 @@
 body{
-    background-image: url(/Images/poemBackground.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #0776A0;
+    background-color: #32120f;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ff8500;
+    color: #a15c34;
     font-size: 150%;
 }
 
@@ -33,17 +28,17 @@ li{
 }
 
 a:link{
-    color: #ff8500;
+    color: #a15c34;
 }
 
 a:visited{
-    color: lightgray;
+    color: #a15c34;
 }
 
 a:hover{
-    color:rgb(18, 145, 18);
+    color: #a15c34;
 }
 
 a:active{
-    color: white;
+    color: #a15c34;
 }
