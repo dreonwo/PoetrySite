@@ -21,6 +21,8 @@ const navSlide = () =>{
 
     });
 
-};
+}; 
 
 navSlide();
+
+
