@@ -135,21 +135,27 @@ nav a:visited{
     left: 40%;
     overflow: hidden;
     margin: 0;
-    padding: 3%;
+    padding: 5%;
     text-align: center;
     background-color: #a15c34;
-    color: white;
+    color: #32120f;
     border-radius: 50%;
 }
 
 #mainContent h2{
     font-family: "Hoefler Text";
+    margin: 0;
+    font-size: 2rem;
 }
 
 #mainContent p{
+    margin-top: 2%;
+    margin-bottom: 0;
     font-family: "Hoefler Text";
+    width: 100%;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.3rem;
+    color: #32120f;
 }
 
 pre{
@@ -195,15 +201,12 @@ footer a:link{
 }
 
 footer a:visited{
-    color: lightgray;
+    color: #a15c34;
 }
 
-footer a:hover{
-    color:rgb(18, 145, 18);
-}
 
 footer a:active{
-    color: white;
+    color: #a15c34;
 }
 
 @media (max-width: 1024px) and (min-width: 501px){
