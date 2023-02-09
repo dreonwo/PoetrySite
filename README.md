@@ -3,4 +3,4 @@ My Poetry website is a website made to highlight the various forms of poetry and
 
 My goal in this project was to shed some light on the beauty of poetry and the many ways that beauty could be manifested.
 
-The link leading to the website can be found here: [Poetry Site](https://dreonwo.github.io/PoetrySite/){:target="_blank"}
+The link leading to the website can be found here: <a href="https://dreonwo.github.io/PoetrySite/" target="_blank">Poetry Site</a>
