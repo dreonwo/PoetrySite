@@ -1,6 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #32120f;
+    background-image: url(../Images/bookshelf.jpg);
     overflow-x: hidden;
 }
 
@@ -73,12 +74,10 @@ nav{
     padding-left: 0;
     width: 87%;
     transform: translateX(100%);
-    transition: transform .5s ease-in;
 }
 
 .nav-active{
     transform: translateX(0%);
-    transition: transform .5s ease-in;
 }
 
 .navbar-active{
@@ -132,13 +131,13 @@ nav a:visited{
 #mainContent{
     width: 50%;
     position: relative;
-    left: 40%;
+    left: 20%;
     overflow: hidden;
     margin: 0;
     padding: 5%;
     text-align: center;
-    background-color: #a15c34;
-    color: #32120f;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
     border-radius: 50%;
 }
 
@@ -146,6 +145,7 @@ nav a:visited{
     font-family: "Hoefler Text";
     margin: 0;
     font-size: 2rem;
+    color: #a15c34;
 }
 
 #mainContent p{
@@ -155,7 +155,6 @@ nav a:visited{
     width: 100%;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #32120f;
 }
 
 pre{
@@ -164,11 +163,12 @@ pre{
 }
 
 #keyTerms{
-    padding: 0;
+    padding: 10px;
     margin: 0;
     overflow: hidden;
     box-sizing: content-box;
     color: white;
+    background-color: rgba(0,0,0,.5);
     width: 50%;
 }
 
@@ -197,16 +197,16 @@ footer{
 }
 
 footer a:link{
-    color: #a15c34;
+    color: black;
 }
 
 footer a:visited{
-    color: #a15c34;
+    color: black;
 }
 
 
 footer a:active{
-    color: #a15c34;
+    color: black;
 }
 
 @media (max-width: 1024px) and (min-width: 501px){
