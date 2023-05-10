@@ -1,5 +1,5 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: #32120f;
     background-image: url(../Images/bookshelf.jpg);
     overflow-x: hidden;
@@ -142,29 +142,24 @@ nav a:visited{
 }
 
 #mainContent h2{
-    font-family: "Hoefler Text";
+    font-family: "Playfair Display", serif;
     margin: 0;
-    font-size: 2rem;
+    font-size: 3.5rem;
     color: #a15c34;
 }
 
 #mainContent p{
     margin-top: 2%;
     margin-bottom: 0;
-    font-family: "Hoefler Text";
+    /* font-family: "Hoefler Text"; */
     width: 100%;
     font-weight: bold;
-    font-size: 1.3rem;
-}
-
-pre{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 200%;
+    font-size: 1.5rem;
 }
 
 #keyTerms{
     padding: 10px;
-    margin: 0;
+    margin: 0 0 15px 0;
     overflow: hidden;
     box-sizing: content-box;
     color: white;

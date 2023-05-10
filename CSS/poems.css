@@ -1,6 +1,6 @@
 body{
     background-color: #32120f;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: #a15c34;
     font-size: 130%;
 }
@@ -10,12 +10,12 @@ body{
 }
 
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 150%;
     width: 50%;
 }
 
 h1{
+    font-family: "Playfair Display", serif;
     text-align: center;
     text-shadow: 2px 2px black;
     color:white;
